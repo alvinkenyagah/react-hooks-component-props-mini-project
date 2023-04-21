@@ -28,7 +28,6 @@ function App() {
     return (
       <div className="post">
         <h2>
-          {" "}
           <a
             href="http://www.google.com"
             style={{ textDecoration: "none", color: "inherit" }}
