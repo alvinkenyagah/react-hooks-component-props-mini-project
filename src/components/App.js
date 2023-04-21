@@ -13,7 +13,7 @@ function App() {
   const Post = ({title, preview, minutes}) => {
     return (
       <div className="post">
-        <h2>{title}</h2>
+        <h2> <a href="http://www.google.com" style={{textDecoration:"none",color:"inherit"}}>{title}</a></h2>
         <p>{preview}</p>
         <p>{minutes} min read</p>
       </div>
